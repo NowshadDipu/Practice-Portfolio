@@ -1,0 +1,66 @@
+/* Common Shared Style */
+*{
+    font-family: 'Kablammo', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.text-primary {
+    color: #ff9900;
+}
+
+/* Nav Related Style */
+nav .nav-tilte {
+    font-size: 45px;
+    font-weight: 800;
+}
+nav {
+    margin: 10px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav > ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav li {
+    list-style: none;
+    padding-right: 20px;
+}
+.btn-primary {
+    color: #FFF8F3;
+    border-radius: 5px;
+    background: #FD6E0A;
+    padding: 15px;
+}
+
+/* Header related styles */
+header {
+    background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.banner{
+    margin: 30px 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner .hardy-pic {
+    width: 500px;
+    height: 70%;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+.banner .dev-pic {
+    
+} 
+
+.banner .btn2-primary {
+    color: #FD6E0A;
+    border-radius: 5px;
+    padding: 15px;
+}
